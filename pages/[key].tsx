@@ -27,7 +27,7 @@ const DocumentPage = ({ logs, apps, dmesg, logkey }: DocumentPageProps) => {
   };
 
   return (
-    <Experiment name="Different UIs" weights={[90, 10]} onExperimentLoad={handleLoad}>
+    <Experiment name="Different UIs" weights={[100, 0]} onExperimentLoad={handleLoad}>
       <Variant name="Legacy UI">
         <Tabs>
           <TabList>
