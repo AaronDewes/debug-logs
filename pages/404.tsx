@@ -1,6 +1,6 @@
 const INDEX_PAGE = `# Page not found
 
-The server for storing debug logs of Umbrel.
+The server for storing debug logs of Citadel.
 
 If you think this is a bug in the server, please <a href="t.me/AaronDewes">[contact me on Telegram](t.me/AaronDewes)</a>.
 `;

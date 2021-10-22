@@ -1,6 +1,6 @@
-const INDEX_PAGE = `# Umbrel debug server
+const INDEX_PAGE = `# Citadel debug server
 
-The server for storing debug logs of Umbrel.
+The server for storing debug logs of Citadel.
 `;
 
 const Frontpage = () => {
