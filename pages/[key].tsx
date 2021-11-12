@@ -22,7 +22,7 @@ const DocumentPage = ({ logs, apps, dmesg, logkey }: DocumentPageProps) => {
 
   const handleLoad = (name, variant) => {
     if (variant !== "Legacy UI") {
-      router.push(`https://v3.debug.umbrel.tech/${variant}`);
+      router.push(`https://next.debug.runcitadel.space/${variant}`);
     }
   };
 
@@ -72,7 +72,7 @@ export async function getServerSideProps({ req, res, params }) {
   // For the tor version
   const baseUrl = env('vercel-url', false) || "http://localhost:8080";
 
-  const data = await fetch(`https://api.debug.umbrel.tech/api/read`, {
+  const data = await fetch(`https://api.debug.runcitadel.space/api/read`, {
     method: 'POST',
     body: JSON.stringify({
       key: params.key
